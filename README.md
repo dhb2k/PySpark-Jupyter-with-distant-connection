@@ -121,10 +121,10 @@ Redémarrer le noyau pour que la librairie soit mise à jour dans l’environnem
 ```python
 from pyspark.sql import SparkSession
 spark = SparkSession \
-				.builder \
-				.appName('tuto_SparkSession') \
-				.config("spark.jars.packages", "org.mongodb.spark:mongo-spark-connector_2.12:3.0.1") \
-		    .getOrCreate()
+	.builder \
+	.appName('tuto_SparkSession') \
+	.config("spark.jars.packages", "org.mongodb.spark:mongo-spark-connector_2.12:3.0.1") \
+	.getOrCreate()
 ```
 
 Ces commandes de bases vous permettent d’instancier l’objet `spark` qui vous permettra plusieurs type de traitements
