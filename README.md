@@ -123,8 +123,22 @@ from pyspark.sql import SparkSession
 spark = SparkSession \
 	.builder \
 	.appName('tuto_SparkSession') \
-	.config("spark.jars.packages", "org.mongodb.spark:mongo-spark-connector_2.12:3.0.1") \
 	.getOrCreate()
 ```
 
 Ces commandes de bases vous permettent d’instancier l’objet `spark` qui vous permettra plusieurs type de traitements
+
+## Bonus
+
+Pour connecter Jupyter Notebook - PySpark - MongoDB vous pouver utiliser les confifigurations basiques suivantes :
+
+```python
+from pyspark.sql import SparkSession
+spark = SparkSession \
+	.builder \
+	.appName('tuto_SparkSession') \
+	.config("spark.mongodb.input.uri", "mongodb://192.168.0.1:27021/databaseName.collectionName") \
+    	.config("spark.mongodb.output.uri", "mongodb://192.168.0.1:27021/databaseName.collectionName") \
+	.config("spark.jars.packages", "org.mongodb.spark:mongo-spark-connector_2.12:3.0.1") \
+	.getOrCreate()
+```
