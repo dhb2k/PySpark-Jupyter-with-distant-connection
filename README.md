@@ -1,3 +1,5 @@
+![img01](img/py_spark_jupyter.jpeg)
+
 # Installation de PySpark - Jupyter
 
 ---
