@@ -16,7 +16,7 @@ Vérifier le bon fonctionnement de Spark en lançant le `Spark Shell` ou le `PyS
 bin/spark-shell
 ```
 
-![Untitled](Installation%20de%20PySpark%20-%20Jupyter%20e668c32ae6d94115913bd7613599f54a/Untitled.png)
+![img01](img/img01.png)
 
 Si vous lancez le `PySpark Shell` vous devez avoir le visuel ci-dessous
 
@@ -24,7 +24,7 @@ Si vous lancez le `PySpark Shell` vous devez avoir le visuel ci-dessous
 bin/pyspark
 ```
 
-![Untitled](Installation%20de%20PySpark%20-%20Jupyter%20e668c32ae6d94115913bd7613599f54a/Untitled%201.png)
+![img0](img/img0.png)
 
 ## Installation Jupyter Notebook
 
@@ -44,7 +44,7 @@ On peut vérifier que l’installation a correctement fonctionné en lançant le
 jupyter notebook
 ```
 
-![Untitled](Installation%20de%20PySpark%20-%20Jupyter%20e668c32ae6d94115913bd7613599f54a/Untitled%202.png)
+![img1](img/img1.png)
 
 ## Port Forwarding (redirection de port)
 
@@ -102,9 +102,9 @@ http://localhost:9001
 
 Il vous sera demander le mot de passe défini plus haut et une fois ce dernier valider, vous pourrez accès à vos fichier depuis le `Jupyter Notebook`
 
-![Untitled](Installation%20de%20PySpark%20-%20Jupyter%20e668c32ae6d94115913bd7613599f54a/Untitled%203.png)
+![img2](img/img2.png)
 
-![Untitled](Installation%20de%20PySpark%20-%20Jupyter%20e668c32ae6d94115913bd7613599f54a/Untitled%204.png)
+![img3](img/img3.png)
 
 ## Connexion Jupyter Spark
 
