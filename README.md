@@ -91,7 +91,7 @@ On lie donc le port 9001 du localhost (machine principale) au port port 9001 de 
 Sur le terminal de la machine distante, mettez en marche le serveur `Jupyter Notebook` en précisant l’ip publique de la machine en utilisant la commande suivante :
 
 ```bash
-jupyter notebookjupyter notebook --ip 192.168.1.1 --port 9001
+jupyter notebook --ip 192.168.1.1 --port 9001
 ```
 
 Vous pouvez ensuite aller sur le navigateur de la machine principale et saisir :
